@@ -1,0 +1,136 @@
+2020-07-02 11:27:12.313442: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2020-07-02 11:27:12.346151: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.582
+pciBusID: 0000:05:00.0
+2020-07-02 11:27:12.347723: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 1 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.582
+pciBusID: 0000:06:00.0
+2020-07-02 11:27:12.349257: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 2 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.582
+pciBusID: 0000:09:00.0
+2020-07-02 11:27:12.350809: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 3 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.582
+pciBusID: 0000:0a:00.0
+2020-07-02 11:27:12.350961: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2020-07-02 11:27:12.351924: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10.0
+2020-07-02 11:27:12.352741: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10.0
+2020-07-02 11:27:12.352942: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10.0
+2020-07-02 11:27:12.354071: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10.0
+2020-07-02 11:27:12.354913: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10.0
+2020-07-02 11:27:12.356622: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2020-07-02 11:27:12.367918: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1746] Adding visible gpu devices: 0, 1, 2, 3
+2020-07-02 11:27:12.368260: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2020-07-02 11:27:12.390697: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3597690000 Hz
+2020-07-02 11:27:12.391702: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x58a6c50 executing computations on platform Host. Devices:
+2020-07-02 11:27:12.391740: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): Host, Default Version
+2020-07-02 11:27:12.911267: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5318bc0 executing computations on platform CUDA. Devices:
+2020-07-02 11:27:12.911315: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): GeForce GTX 1080 Ti, Compute Capability 6.1
+2020-07-02 11:27:12.911328: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (1): GeForce GTX 1080 Ti, Compute Capability 6.1
+2020-07-02 11:27:12.911338: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (2): GeForce GTX 1080 Ti, Compute Capability 6.1
+2020-07-02 11:27:12.911349: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (3): GeForce GTX 1080 Ti, Compute Capability 6.1
+2020-07-02 11:27:12.915808: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.582
+pciBusID: 0000:05:00.0
+2020-07-02 11:27:12.918362: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 1 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.582
+pciBusID: 0000:06:00.0
+2020-07-02 11:27:12.920951: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 2 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.582
+pciBusID: 0000:09:00.0
+2020-07-02 11:27:12.923016: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 3 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.582
+pciBusID: 0000:0a:00.0
+2020-07-02 11:27:12.923052: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2020-07-02 11:27:12.923065: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10.0
+2020-07-02 11:27:12.923075: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10.0
+2020-07-02 11:27:12.923085: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10.0
+2020-07-02 11:27:12.923095: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10.0
+2020-07-02 11:27:12.923105: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10.0
+2020-07-02 11:27:12.923115: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2020-07-02 11:27:12.932785: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1746] Adding visible gpu devices: 0, 1, 2, 3
+2020-07-02 11:27:12.932820: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2020-07-02 11:27:12.937741: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1159] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-07-02 11:27:12.937757: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1165]      0 1 2 3 
+2020-07-02 11:27:12.937762: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 0:   N Y Y Y 
+2020-07-02 11:27:12.937766: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 1:   Y N Y Y 
+2020-07-02 11:27:12.937770: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 2:   Y Y N Y 
+2020-07-02 11:27:12.937774: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 3:   Y Y Y N 
+2020-07-02 11:27:12.943485: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 2048 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:05:00.0, compute capability: 6.1)
+2020-07-02 11:27:12.945126: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:1 with 10349 MB memory) -> physical GPU (device: 1, name: GeForce GTX 1080 Ti, pci bus id: 0000:06:00.0, compute capability: 6.1)
+2020-07-02 11:27:12.946708: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:2 with 10349 MB memory) -> physical GPU (device: 2, name: GeForce GTX 1080 Ti, pci bus id: 0000:09:00.0, compute capability: 6.1)
+2020-07-02 11:27:12.949278: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:3 with 10349 MB memory) -> physical GPU (device: 3, name: GeForce GTX 1080 Ti, pci bus id: 0000:0a:00.0, compute capability: 6.1)
+2020-07-02 11:27:18.462096: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10.0
+2020-07-02 11:27:18.647060: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2020-07-02 11:27:19.397694: E tensorflow/stream_executor/cuda/cuda_dnn.cc:319] Loaded runtime CuDNN library: 7.0.5 but source was compiled with: 7.6.0.  CuDNN library major and minor version needs to match or have higher minor version in case of CuDNN 7.0 or later version. If using a binary install, upgrade your CuDNN library.  If building from sources, make sure the library loaded at runtime is compatible with the version specified during compile configuration.
+2020-07-02 11:27:19.399781: E tensorflow/stream_executor/cuda/cuda_dnn.cc:319] Loaded runtime CuDNN library: 7.0.5 but source was compiled with: 7.6.0.  CuDNN library major and minor version needs to match or have higher minor version in case of CuDNN 7.0 or later version. If using a binary install, upgrade your CuDNN library.  If building from sources, make sure the library loaded at runtime is compatible with the version specified during compile configuration.
+2020-07-02 11:27:19.400551: W tensorflow/core/common_runtime/base_collective_executor.cc:216] BaseCollectiveExecutor::StartAbort Unknown: Failed to get convolution algorithm. This is probably because cuDNN failed to initialize, so try looking to see if a warning log message was printed above.
+	 [[{{node sequential/conv1d/conv1d}}]]
+	 [[Reshape_16/_20]]
+2020-07-02 11:27:19.400587: W tensorflow/core/common_runtime/base_collective_executor.cc:216] BaseCollectiveExecutor::StartAbort Unknown: Failed to get convolution algorithm. This is probably because cuDNN failed to initialize, so try looking to see if a warning log message was printed above.
+	 [[{{node sequential/conv1d/conv1d}}]]
+2020-07-02 11:27:19.419561: I tensorflow/core/profiler/lib/profiler_session.cc:184] Profiler session started.
+2020-07-02 11:27:19.419683: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcupti.so.10.0'; dlerror: libcupti.so.10.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: :/usr/local/cuda-10.0/lib64
+2020-07-02 11:27:19.419696: W tensorflow/core/profiler/lib/profiler_session.cc:192] Encountered error while starting profiler: Unavailable: CUPTI error: CUPTI could not be loaded or symbol could not be found.
+4 Physical GPUs, 4 Logical GPUs
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embed (Embedding)            (None, 500, 128)          256000    
+_________________________________________________________________
+conv1d (Conv1D)              (None, 494, 32)           28704     
+_________________________________________________________________
+max_pooling1d (MaxPooling1D) (None, 98, 32)            0         
+_________________________________________________________________
+conv1d_1 (Conv1D)            (None, 92, 32)            7200      
+_________________________________________________________________
+global_max_pooling1d (Global (None, 32)                0         
+_________________________________________________________________
+dense (Dense)                (None, 1)                 33        
+=================================================================
+Total params: 291,937
+Trainable params: 291,937
+Non-trainable params: 0
+_________________________________________________________________
+Train on 20000 samples, validate on 5000 samples
+Epoch 1/20
+    8/20000 [..............................] - ETA: 1:08:072020-07-02 11:27:19.453667: I tensorflow/core/platform/default/device_tracer.cc:588] Collecting 0 kernel records, 0 memcpy records.
+2020-07-02 11:27:19.454173: E tensorflow/core/platform/default/device_tracer.cc:70] CUPTI error: CUPTI could not be loaded or symbol could not be found.
+Traceback (most recent call last):
+  File "test.py", line 57, in <module>
+    callbacks=callbacks) 
+  File "/home/sdmohant/.virtualenvs/python3deep/lib/python3.5/site-packages/tensorflow_core/python/keras/engine/training.py", line 728, in fit
+    use_multiprocessing=use_multiprocessing)
+  File "/home/sdmohant/.virtualenvs/python3deep/lib/python3.5/site-packages/tensorflow_core/python/keras/engine/training_v2.py", line 324, in fit
+    total_epochs=epochs)
+  File "/home/sdmohant/.virtualenvs/python3deep/lib/python3.5/site-packages/tensorflow_core/python/keras/engine/training_v2.py", line 123, in run_one_epoch
+    batch_outs = execution_function(iterator)
+  File "/home/sdmohant/.virtualenvs/python3deep/lib/python3.5/site-packages/tensorflow_core/python/keras/engine/training_v2_utils.py", line 86, in execution_function
+    distributed_function(input_fn))
+  File "/home/sdmohant/.virtualenvs/python3deep/lib/python3.5/site-packages/tensorflow_core/python/eager/def_function.py", line 457, in __call__
+    result = self._call(*args, **kwds)
+  File "/home/sdmohant/.virtualenvs/python3deep/lib/python3.5/site-packages/tensorflow_core/python/eager/def_function.py", line 520, in _call
+    return self._stateless_fn(*args, **kwds)
+  File "/home/sdmohant/.virtualenvs/python3deep/lib/python3.5/site-packages/tensorflow_core/python/eager/function.py", line 1823, in __call__
+    return graph_function._filtered_call(args, kwargs)  # pylint: disable=protected-access
+  File "/home/sdmohant/.virtualenvs/python3deep/lib/python3.5/site-packages/tensorflow_core/python/eager/function.py", line 1141, in _filtered_call
+    self.captured_inputs)
+  File "/home/sdmohant/.virtualenvs/python3deep/lib/python3.5/site-packages/tensorflow_core/python/eager/function.py", line 1224, in _call_flat
+    ctx, args, cancellation_manager=cancellation_manager)
+  File "/home/sdmohant/.virtualenvs/python3deep/lib/python3.5/site-packages/tensorflow_core/python/eager/function.py", line 511, in call
+    ctx=ctx)
+  File "/home/sdmohant/.virtualenvs/python3deep/lib/python3.5/site-packages/tensorflow_core/python/eager/execute.py", line 67, in quick_execute
+    six.raise_from(core._status_to_exception(e.code, message), None)
+  File "<string>", line 3, in raise_from
+tensorflow.python.framework.errors_impl.UnknownError: 2 root error(s) found.
+  (0) Unknown:  Failed to get convolution algorithm. This is probably because cuDNN failed to initialize, so try looking to see if a warning log message was printed above.
+	 [[node sequential/conv1d/conv1d (defined at /home/sdmohant/.virtualenvs/python3deep/lib/python3.5/site-packages/tensorflow_core/python/framework/ops.py:1751) ]]
+	 [[Reshape_16/_20]]
+  (1) Unknown:  Failed to get convolution algorithm. This is probably because cuDNN failed to initialize, so try looking to see if a warning log message was printed above.
+	 [[node sequential/conv1d/conv1d (defined at /home/sdmohant/.virtualenvs/python3deep/lib/python3.5/site-packages/tensorflow_core/python/framework/ops.py:1751) ]]
+0 successful operations.
+0 derived errors ignored. [Op:__inference_distributed_function_1219]
+
+Function call stack:
+distributed_function -> distributed_function
+
