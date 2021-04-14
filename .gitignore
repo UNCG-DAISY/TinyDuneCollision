@@ -3,3 +3,4 @@ src/my-log*
 src/output*
 .ipynb_checkpoints
 test.py
+data/
