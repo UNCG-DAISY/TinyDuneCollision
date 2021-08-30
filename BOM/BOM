@@ -1,5 +1,6 @@
-part --------------------------- price
-https://www.polycase.com/wh-10	$25.76
-https://www.polycase.com/wh-10k	$7.36
-https://voltaicsystems.com/v50/	$65.00
+part --- website --- price
+Case --- https://www.polycase.com/wh-10	--- $25.76
+Case Hardware --- https://www.polycase.com/wh-10k --- $7.36
+Battery --- https://voltaicsystems.com/v50/ --- $65.00
+Camera --- https://openmv.io/collections/products/products/openmv-cam-h7-plus --- $80
 	
