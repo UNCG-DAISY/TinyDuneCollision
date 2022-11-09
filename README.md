@@ -2,6 +2,10 @@
 
 This repository outlines the development of a CNN model and the deployment of the (quantized) model on a microcontroller (with a camera) to detect when waves are hitting the dunes.
 
+![Screenshot from 2022-11-09 09-48-11](https://user-images.githubusercontent.com/5330599/200861662-fb35bedd-1e40-4d23-bb47-799f553eab1c.png)
+
+![IMG_0220](https://user-images.githubusercontent.com/5330599/200861675-22daa152-57c1-40d3-b011-d9e9b858c607.jpg)
+
 The key elements of this repository are the 2 jupyter notebooks describing the development of the CNN model, the tensorflow lite model (`.tflite` file), and 1 micropython script to load onto the microcontroller.
 
 The data used to develop the model can be found on figshare ([Goldstein & Beuzen 2020](https://doi.org/10.6084/m9.figshare.12765494.v1)). The images were labeled with the [Coastal Image Labeler](https://github.com/UNCG-DAISY/Coastal-Image-Labeler).
